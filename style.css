@@ -28,6 +28,13 @@ body {
   font-size: 1.8rem;
   letter-spacing: 2px;
 }
+.logo img {
+  height: 45px;       /* tamanho ideal pro header */
+  width: auto;
+  display: block;
+  border-radius: 5%;
+}
+
 .menu-btn {
   position: relative;   /* 🔥 AQUI */
   z-index: 1100;        /* acima da nav */
